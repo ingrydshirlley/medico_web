@@ -1,0 +1,11 @@
+.dieta-container {
+    margin-left: 150px;
+    background-color: aqua;
+    width: auto;
+    height: 100vh;
+}
+
+.dieta-header {
+    font-size: 24px;
+    color: #333;
+}

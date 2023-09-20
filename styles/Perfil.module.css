@@ -1,0 +1,19 @@
+.perfil-container {
+    margin-left: 150px;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.perfil-header {
+    font-size: 40px;
+    color: #333;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    border-bottom: 0.3px solid #C4C4C4;
+}
