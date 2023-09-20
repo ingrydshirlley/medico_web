@@ -7,11 +7,12 @@ const Chat = () => {
     return (
         <div className={styles['chat-container']}>
             <div className={styles['container-pacientes']}>
-                <div>
+                <div className={styles['pacientes-container']}>
                     <h1>Pacientes</h1>
                     <input type="text" placeholder='Pesquisar um paciente' />
 
                     <div className={styles['pacientes']}>
+                        <ConversaPaciente />
                         <ConversaPaciente />
                         <ConversaPaciente />
                         <ConversaPaciente />
@@ -24,7 +25,7 @@ const Chat = () => {
             </div>
 
             <div className={styles['container-conversa']}>
-                <h1>aqui vem o chat</h1>
+                
             </div>
         </div>
     );
