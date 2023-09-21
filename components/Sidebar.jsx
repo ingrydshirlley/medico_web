@@ -7,7 +7,7 @@ const Sidebar = () => {
     return (
         <nav className={styles.sidebar}>
             <ul className={styles.ul}>
-                <li> <Link href="/perfil"> <img className={styles.img_img} src="https://static.vecteezy.com/ti/vetor-gratis/p3/17581030-logotipo-da-letra-k-com-coroa-e-forma-de-amor-gratis-vetor.jpg" alt="" /> </Link> </li>
+                <li> <Link href="/perfil"> <img className={styles.img_img} src="https://i2.wp.com/ocapacitor.com/wp-content/uploads/2020/09/2362.jpg?fit=720%2C720&ssl=1" alt="" /> </Link> </li>
 
                 <div className={styles.lista}>
                     <li> <Link href="/agenda"> <BsCalendarCheck /> </Link> </li>

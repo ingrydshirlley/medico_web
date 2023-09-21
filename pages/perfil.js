@@ -8,11 +8,10 @@ import styles from './../styles/Perfil.module.css';
 import TituloSecao from '@/components/TituloSecao';
 
 const Perfil = () => {
-
     return (
         <div className={styles['perfil-container']}>
             <TituloSecao title="Gerenciar Perfil" />
-
+            
             <div className={styles['container']}>
                 <div className={styles['options']}>
                     <div className={styles['box-option']}>
@@ -29,7 +28,7 @@ const Perfil = () => {
                             Account
                         </div>
                         <div className={styles['description']}>
-                            <a> <BsPerson /> </a>Personal Data <div className={styles['seta']}><IoIosArrowForward/></div>
+                            <a> <BsPerson /> </a>Personal Data <div className={styles['seta']}><IoIosArrowForward /></div>
                         </div>
                     </div>
 
@@ -40,10 +39,10 @@ const Perfil = () => {
 
                         <div className={styles['container-description']}>
                             <div className={styles['description']}>
-                                <a> <HiOutlineMail /> </a>Contact Us <div className={styles['seta']}><IoIosArrowForward/></div>
+                                <a> <HiOutlineMail /> </a>Contact Us <div className={styles['seta']}><IoIosArrowForward /></div>
                             </div>
                             <div className={styles['description']}>
-                                <a> <MdOutlinePrivacyTip /> </a>Privacy Policy <div className={styles['seta']}><IoIosArrowForward/></div>
+                                <a> <MdOutlinePrivacyTip /> </a>Privacy Policy <div className={styles['seta']}><IoIosArrowForward /></div>
                             </div>
                         </div>
                     </div>
