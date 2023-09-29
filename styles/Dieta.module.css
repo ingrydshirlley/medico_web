@@ -4,75 +4,82 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px
+    gap: 50px;
 }
 
-.container-geral{
+.container-geral {
     display: flex;
     margin-left: 120px;
-    height: 500px;
+    height: 75%;
     display: flex;
-    width: 85%;
-    justify-content: space-between;
-    align-items: center
+    width: 90%;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
 }
 
-.container-pacientes{
-    width: 40%;
-    height: 500px;
+.container-pacientes {
+    width: 600px;
+    height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 10px;
 }
 
-.container-pacientes div input{
+.container-pacientes div input {
     border-radius: 10px;
     border: none;
-    padding: 10px;
-    width: 95%;
+    padding: 20px;
+    width: 100%;
     margin-bottom: 10px;
-    background-color: rgb(229, 229, 213);
+    background-color: #F6F3F1;
 }
 
-.container-pacientes div span{
-    font-size: 20px; 
+.container-pacientes div input::placeholder {
+    color: #999;
+    font-size: 17px;
+}
+
+.container-pacientes div span {
+    font-size: 20px;
 }
 
 .container-pacientes .box-pacientes {
-   width: 100%;
-    height: 500px;
+    width: 100%;
+    height: 650px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    overflow: auto; 
-    padding-bottom: 20px;
-    padding-top: 20px
+    overflow: auto;
 }
 
 .paciente {
-    background-color: rgb(224, 224, 193);
-    width: 100%; 
+    background-color: #F6F3F1;
+    width: 100%;
     min-height: 80px;
     display: flex;
     border-radius: 10px;
     align-items: center;
-    gap: 10px
+    gap: 10px;
+    font-weight: 500;
+    font-size: 18px;
 }
 
-.imagem{
+.imagem {
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    padding:3px;
+    padding: 3px;
 }
 
-.imagem img{
+.imagem img {
     width: 100%;
     border-radius: 50%;
 }
 
-.container-dieta{
-    background-color: beige;
+.container-dieta {
+    background-color: #F6F3F1;
     width: 55%;
     border-radius: 10px;
     height: 100%;
